@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Akan Name Calculator</title>
+</head>
+<body>
+    
+    <h1><strong> Akan Name Calculator</strong></h1>
+                <p>Akan names are derived from the Ghanian culture.<br>Frequently in Ghana, children  are given their first name as a 'day name',which corresponds to the day in the week they wer born.<br>Here are the Ghanian day names:</p>   
+                     
+                        <div >Male</div>
+                        
+                            <ul>
+                                <li>Sunday:Kwasi</li>
+                                <li>Monday:Kwadwo</li>
+                                <li>Tuesday:Kwabena</li>
+                                <li>Wednesday:Kwaku</li>
+                                <li>Thursday:Yaw</li>
+                                <li>Friday:Kofi</li>
+                                <li>Saturday:kwame</li>
+                            </ul>
+                        
+                        <div >Female</div>
+
+                            <ul>
+                                <li>Sunday:Akosua</li>
+                                <li>Monday:Adwoa</li>
+                                <li>Tuesday:Abenaa</li>
+                                <li>Wednesday:Akua</li>
+                                <li>Thursday:Yaa</li>
+                                <li>Friday:Afua</li>
+                                <li>Saturday:Ama</li>
+                            </ul>
+    <label for="month">Month :  <input type="text" id="month"> </label> <br>
+    <label for="date">Date : <input type="text" id="date"> </label> <br>
+    <label for="cent">Century : <input type="text" id="century">  </label> <br>
+    <label for="year-digits">Year :<input type="text" id="year-digits"></label> <br>
+    <label for="gender">Gender : <select id="gender">
+        <option value="male">male</option>
+        <option value="female">female</option>
+    </select></label> <br>
+    <button onclick="akanDay()">CALCULATE</button>
+    <div id="results">
+
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
